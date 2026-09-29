@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" role="img" aria-labelledby="title desc">
+  <title id="title">Baseball championship trophy</title>
+  <desc id="desc">An original gold and silver trophy with a baseball, pennants, and a diamond-shaped base.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1"><stop stop-color="#aeb9c7"/><stop offset=".32" stop-color="#fff"/><stop offset=".65" stop-color="#c7d0da"/><stop offset="1" stop-color="#75849a"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0a6"/><stop offset=".35" stop-color="#e8ad37"/><stop offset=".72" stop-color="#b87416"/><stop offset="1" stop-color="#ffe789"/></linearGradient>
+    <radialGradient id="ball"><stop stop-color="#fff"/><stop offset=".75" stop-color="#f4ecdc"/><stop offset="1" stop-color="#cbbca3"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#071a31" flood-opacity=".35"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <g fill="url(#silver)" stroke="#708096" stroke-width="3">
+      <path d="M62 254Q103 104 194 54L207 73Q132 128 93 271Z"/><path d="M358 254Q317 104 226 54L213 73Q288 128 327 271Z"/>
+      <path d="M91 273Q111 123 176 50L192 66Q142 135 121 284Z"/><path d="M329 273Q309 123 244 50L228 66Q278 135 299 284Z"/>
+      <path d="M126 286Q138 128 196 36L207 48Q164 142 154 292Z"/><path d="M294 286Q282 128 224 36L213 48Q256 142 266 292Z"/>
+    </g>
+    <g fill="url(#gold)" stroke="#9f6714" stroke-width="3">
+      <path d="M50 58h84l-16 25 16 25H50Z"/><path d="M370 58h-84l16 25-16 25h84Z"/>
+      <path d="M85 132h73l-14 22 14 22H85Z"/><path d="M335 132h-73l14 22-14 22h73Z"/>
+    </g>
+    <circle cx="210" cy="210" r="83" fill="url(#ball)" stroke="#d7c9b4" stroke-width="5"/>
+    <path d="M163 149Q136 205 170 266M257 149Q284 205 250 266" fill="none" stroke="#c94335" stroke-width="5" stroke-dasharray="7 7"/>
+    <path d="M181 288h58l18 112h-94Z" fill="url(#silver)" stroke="#75849a" stroke-width="4"/>
+    <path d="M129 393h162l24 48H105Z" fill="url(#gold)" stroke="#9f6714" stroke-width="5"/>
+    <path d="M89 441h242l28 70H61Z" fill="#102b4e" stroke="url(#gold)" stroke-width="7"/>
+    <path d="M126 466h168l-14 22H140Z" fill="url(#gold)"/>
+    <path d="M196 300h28v89h-28Z" fill="#e8ad37" opacity=".65"/>
+  </g>
+</svg>
