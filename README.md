@@ -28,6 +28,7 @@ Serve the repository directory over HTTP to test locally. Opening the HTML files
 - `index.html` — scrolling report with headline numbers, eight findings, eight charts, and methodology.
 - `dashboard.html` — interactive dashboard with four filters, measure and breakdown switches, four charts, KPIs, a data table, and reset control.
 - `css/style.css` — shared responsive visual system for both pages.
+- `css/baseball.css` — baseball-specific illustrations, seam motifs, field geometry, and responsive visual details.
 - `js/report.js` — loads precomputed report results and draws the eight report charts.
 - `js/dashboard.js` — loads and parses the row-level CSV, filters it, calculates summaries, draws charts, and updates the table.
 - `data/batting.csv` — browser-ready panel dataset produced from the three source tables.

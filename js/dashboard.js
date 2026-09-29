@@ -1,3 +1,4 @@
+document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="css/baseball.css">');
 const $=id=>document.getElementById(id), numeric=['year','stint','games','atBats','runs','hits','doubles','triples','homeRuns','rbi','stolenBases','caughtStealing','walks','strikeouts','hitByPitch','sacrificeFlies'];
 const labels={homeRuns:'Home runs',hits:'Hits',runs:'Runs',rbi:'RBI',stolenBases:'Stolen bases',walks:'Walks',strikeouts:'Strikeouts',battingAverage:'Batting average'};
 let rows=[],charts={};
