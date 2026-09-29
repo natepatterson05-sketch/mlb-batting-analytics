@@ -4,7 +4,7 @@ An interactive data report and dashboard about major-league batting from 1871 th
 
 ## Live site
 
-The GitHub Pages URL will be added after the repository is published.
+https://natepatterson05-sketch.github.io/mlb-batting-analytics/
 
 ## Data
 

@@ -1,4 +1,4 @@
 Nate Patterson
 011021049
-REPOSITORY_URL_AFTER_PUBLISHING
-LIVE_SITE_URL_AFTER_ENABLING_GITHUB_PAGES
+https://github.com/natepatterson05-sketch/mlb-batting-analytics
+https://natepatterson05-sketch.github.io/mlb-batting-analytics/
