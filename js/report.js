@@ -1,4 +1,3 @@
-document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="css/baseball.css">');
 const colors={navy:'#102b4e',red:'#d64b32',gold:'#e8ad37',teal:'#147d7e',grid:'rgba(16,43,78,.12)'};
 Chart.defaults.font.family='Source Sans 3';Chart.defaults.color='#334155';
 const base={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:colors.grid},beginAtZero:true}}};
