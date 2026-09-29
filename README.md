@@ -28,7 +28,7 @@ Serve the repository directory over HTTP to test locally. Opening the HTML files
 - `index.html` — scrolling report with headline numbers, eight findings, eight charts, and methodology.
 - `dashboard.html` — interactive dashboard with four filters, measure and breakdown switches, four charts, KPIs, a data table, and reset control.
 - `css/style.css` — shared responsive visual system for both pages.
-- `css/ballpark-v7.css` — baseball-specific illustrations, animated base runner and ballpark backgrounds, seam motifs, and responsive visual details.
+- `css/ballpark-v8.css` — baseball-specific illustrations, animated base runner, vintage scoreboard finding panels, and responsive visual details.
 - `assets/championship-trophy.svg` — original baseball championship trophy illustration used as a report background accent.
 - `js/report.js` — loads precomputed report results and draws the eight report charts.
 - `js/dashboard.js` — loads and parses the row-level CSV, filters it, calculates summaries, draws charts, and updates the table.
