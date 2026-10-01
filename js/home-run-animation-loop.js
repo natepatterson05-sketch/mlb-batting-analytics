@@ -6,7 +6,11 @@
     if (animation.dataset.played) return;
     animation.dataset.played = 'true';
     animation.classList.add('is-playing');
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && motion) motion.beginElement();
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && motion) {
+      motion.setAttribute('dur', '4.5s');
+      motion.setAttribute('repeatCount', 'indefinite');
+      motion.beginElement();
+    }
   };
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     animation.classList.add('is-static');
