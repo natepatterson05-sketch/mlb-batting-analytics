@@ -34,6 +34,7 @@ Serve the repository directory over HTTP to test locally. Opening the HTML files
 - `js/home-run-animation-v2.js` — triggers the synchronized looping first-finding home-run animation when it enters view.
 - `css/home-run-v4.css` — isolated synchronized styling for the first-finding animation.
 - `css/pitch-animation-v3.css` — isolated fast synchronized styling for the corrected second-finding pitcher animation.
+- `css/animation-polish-v1.css` — flat-vector polish layer for both finding animations.
 - `js/pitch-animation.js` — starts the second-finding pitch animation when it enters view.
 - `js/dashboard.js` — loads and parses the row-level CSV, filters it, calculates summaries, draws charts, and updates the table.
 - `data/batting.csv` — browser-ready panel dataset produced from the three source tables.
